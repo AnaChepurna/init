@@ -1,0 +1,2 @@
+ #Identify the MAC address of the Wi-Fi card
+ system_profiler SPAirPortDataType | awk 'MAC Address:/ {print $NF}'
