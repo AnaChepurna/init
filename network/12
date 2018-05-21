@@ -1,0 +1,2 @@
+#Check that the server with the 10.51.1.253 IP address is reachable from your computer.
+ping -c 5 10.51.1.253
