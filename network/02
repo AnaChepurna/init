@@ -1,2 +1,2 @@
 #Identify and display the Ethernet interface characteristics
-ifconfig | sed -n "/^en/,/status/p"
+ifconfig | sed -n "/^en0/,/status/p"

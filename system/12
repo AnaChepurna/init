@@ -1,0 +1,2 @@
+#Figure out the exact size of each folder of /var
+du -h -d 1 /var

@@ -1,2 +1,2 @@
 #Find the external IP of 42.fr
-echo 163.172.250.11
+dig +short 42.fr

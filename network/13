@@ -1,2 +1,2 @@
 #Figure out the server type.
-curl -I www.linuxnix.com
+curl -I google.com

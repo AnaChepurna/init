@@ -1,0 +1,2 @@
+#With the previous command, forbid all others
+iptables -A INPUT --jump DROP

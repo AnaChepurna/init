@@ -1,0 +1,2 @@
+#What file contains the RSA keys that are authorized to connect via SSH?
+.ssh/known_hosts (on Mac; or authorized_keys, or id_rsa - the file in this directory)

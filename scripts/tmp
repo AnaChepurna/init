@@ -1,0 +1,9 @@
+status1="$(cat 02)"                                                                                                                             
+status2="$cat 04"                                                                                                          
+if [ '$status1' != '$status2' ]                                                                                                                                
+then
+
+echo "not ok"                                                                                                                                                           
+else                                                                                                                                                           
+echo "all ok"                                                                                                                                                  
+fi
