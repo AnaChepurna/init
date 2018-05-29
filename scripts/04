@@ -2,8 +2,8 @@
 
 md5sum /etc/crontab | awk '{ print $1 }' > /etc/crontab_code
 echo "0 0 * * * \
-status1=\"\$(cat //crontab_code)\" && \
+status1=\"\$(cat \"/etc/crontab_code\")\" && \
 status2=\"\$(md5sum /etc/crontab | awk '{ print $1 }')\" && \
 if [ '\$status1' != '\$status2' ] ; then \
-echo \"\$status2\" > /etc/crontab_code && \
+echo '\$status2' > \"/etc/crontab_code\" && \
 echo \"/etc/crontab has been modified \" | mail -s \"/etc/crontab has been modified\" root ; fi" >> /etc/crontab
